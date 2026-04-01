@@ -7,7 +7,7 @@ You can find information on how to start a "quest" to get each of those flags in
 1. Flag 1: kill the ender dragon
 2. Flag 2: enter the trial chamber
 
-You can find the live site here: [https://mineshop.mahaloz.re:5001](https://mineshop.mahaloz.re:5001). ALL of the source code of the site can be found in this repo (flags changed on server).
+You can find the live site here: [http://mineshop.mahaloz.re:1337](http://mineshop.mahaloz.re:1337). ALL of the source code of the site can be found in this repo (flags changed on server).
 
 Your login is: `steve` / `craft123`.
 
