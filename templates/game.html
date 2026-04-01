@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineShop</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header class="game-header">
+        <span class="title">MineShop</span>
+        <div class="player-stats">
+            <span>Emeralds: <span class="emerald-value" id="player-emeralds">0</span></span>
+            <button class="logout-btn" id="logout-btn">Disconnect</button>
+        </div>
+    </header>
+    <nav class="tab-bar">
+        <button class="tab-btn active" data-tab="trades">Villager Trades</button>
+        <button class="tab-btn" data-tab="inventory">Inventory</button>
+        <button class="tab-btn" data-tab="end">The End</button>
+        <button class="tab-btn" data-tab="trial">Trial Chamber</button>
+        <button class="tab-btn has-badge" data-tab="quests" data-badge="2">Quest Log</button>
+    </nav>
+    <main class="content">
+        <div class="tab-panel active" id="panel-trades"></div>
+        <div class="tab-panel" id="panel-inventory"></div>
+        <div class="tab-panel" id="panel-end"></div>
+        <div class="tab-panel" id="panel-trial"></div>
+        <div class="tab-panel" id="panel-quests"></div>
+    </main>
+    <script src="/static/app.js"></script>
+</body>
+</html>
