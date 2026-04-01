@@ -20,4 +20,11 @@ pip install -r requirements.txt
 python3 app.py
 ```
 
-Open **http://localhost:5001** in your browser.
+Open **http://localhost:1337** in your browser.
+
+You can also use Docker:
+```
+ docker build -t mineshop . && docker run -p 1337:1337 mineshop
+```
+
+
